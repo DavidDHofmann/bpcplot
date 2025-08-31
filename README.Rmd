@@ -17,8 +17,11 @@ knitr::opts_chunk$set(
 `bpcplot` is an R-package that provides functionalities to easily generate R
 figures that use BPC's corporate colors.
 
+To install the package, run the following code in your R-session.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("DavidDHofmann/bpcplot")
+devtools::install_github("DavidDHofmann/bpcplot", build_vignettes = T)
 ```
+
+A vignette that demonstrates usage of the package can be found here: 
