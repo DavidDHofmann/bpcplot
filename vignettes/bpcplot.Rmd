@@ -59,6 +59,7 @@ bpc_cols(palette = "divergent_1", n = 10)
 
 The package also provides functionalities to apply these palettes to your ggplot
 figures. There are six main functions for this:
+
 - `scale_color_bpc_qualitative()`
 - `scale_fill_bpc_qualitative()`
 - `scale_color_bpc_sequential()`
